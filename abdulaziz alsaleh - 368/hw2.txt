@@ -1,0 +1,25 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+         double x = 99.7;
+         
+        if( 90.0 < x ){
+             System.out.println("A");
+        }
+        if( 90.0 > x) ( x > 80.0 ){
+             System.out.println("B");
+        }
+        if( 80.0 > x ) ( x >70.0 ){
+             System.out.println("C");
+        }
+        if( 70.0 > x )  (> x 60.0 ){
+             System.out.println("D");
+        }
+        if( x < 60.0){
+             System.out.println("F");
+        }
+        
+        System.out.println(x);
+     }
+}
